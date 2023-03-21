@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #244f7b;
+  padding: 1rem;
+}
+
+.rightIcons {
+  display: flex;
+  gap: 1rem;
+}

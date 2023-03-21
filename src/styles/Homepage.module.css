@@ -1,0 +1,12 @@
+.headline {
+  height: 285px;
+  opacity: 0.75;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.attribution {
+  color: black;
+  font-size: 0.5rem;
+}
