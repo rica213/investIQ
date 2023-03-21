@@ -1,0 +1,13 @@
+.NoMatch {
+  background-color: #fff;
+  height: 60vh;
+  color: #244f7b;
+  padding-top: 50%;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.backHomeBtn {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}

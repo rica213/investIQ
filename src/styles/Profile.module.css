@@ -1,0 +1,31 @@
+.profile {
+  background-color: #244f7b;
+}
+
+.headline {
+  background-color: #0058a8;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+.title {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0.25rem;
+}
+
+.row:nth-child(odd) {
+  background-color: #0058a8;
+}
+
+.row:nth-child(even) {
+  background-color: #0d47a1;
+}

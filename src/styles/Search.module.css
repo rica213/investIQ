@@ -1,0 +1,15 @@
+.searchBy,
+.searchBtn {
+  padding: 0.25rem 1rem;
+}
+
+.searchBy {
+  width: 75%;
+}
+
+.searchBtn {
+  background-color: #244f7b;
+  color: #fff;
+  width: 25%;
+  cursor: pointer;
+}
