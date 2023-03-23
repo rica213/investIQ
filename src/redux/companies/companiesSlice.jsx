@@ -40,14 +40,14 @@ const companiesSlice = createSlice({
   reducers: {
     searchByName: (state, action) => {
       const newState = { ...state };
-      newState.filteredCompanies = newState.companies.filter((company) =>
-       company.companyName.toLowerCase().includes(action.payload.toLowerCase()));
+      newState.filteredCompanies = newState.companies.filter((company) => (
+        company.companyName.toLowerCase().includes(action.payload.toLowerCase())))
       return newState;
     },
     searchBySymbol: (state, action) => {
       const newState = { ...state };
-      newState.filteredCompanies = newState.companies.filter((company) =>
-       company.symbol.toLowerCase().includes(action.payload.toLowerCase()));
+      newState.filteredCompanies = newState.companies.filter((company) => (
+        company.symbol.toLowerCase().includes(action.payload.toLowerCase())))
       return newState;
     },
     resetFilter: (state) => ({
