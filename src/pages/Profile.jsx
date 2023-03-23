@@ -1,39 +1,52 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import styles from '../styles/Profile.module.css';
+import Summary from '../components/Summary';
 
-const Profile = () => (
-  <article className={styles.profile}>
-    <section className={styles.headline}>
-      <img src="" alt="logo goes here" className={styles.logo} />
-      <div>
-        <h2 className={styles.name}>Apple</h2>
-        <h3 className={styles.symbol}>AAPL</h3>
-      </div>
-    </section>
-    <div className={styles.title}>Profile details</div>
-    <section className={styles.details}>
-      <div className={styles.row}>
-        <span>Price:</span>
-        <p>some metrics</p>
-      </div>
-      <div className={styles.row}>
-        <span>Currency:</span>
-        <p>some metrics</p>
-      </div>
-      <div className={styles.row}>
-        <span>CEO:</span>
-        <p>some metrics</p>
-      </div>
-      <div className={styles.row}>
-        <span>Industry:</span>
-        <p>some metrics</p>
-      </div>
-      <div className={styles.row}>
-        <span>Website:</span>
-        <p>some metrics</p>
-      </div>
-    </section>
-  </article>
-);
+const Profile = () => {
+  const { details, isLoading } = useSelector((store) => store.profile);
+  return (
+    <article className={styles.profile}>
+      {!isLoading && (
+        <section className={styles.headline}>
+          <img
+            src={details[0].image}
+            alt={details[0].companyName}
+            className={styles.logo}
+          />
+          <div>
+            <h2 className={styles.name}>{details[0].companyName}</h2>
+            <h3 className={styles.symbol}>{details[0].symbol}</h3>
+          </div>
+        </section>
+      )}
+      <Summary title="Profile details" />
+      {!isLoading && (
+        <section className={styles.details}>
+          <div className={styles.row}>
+            <span>Price:</span>
+            <p>{details[0].price}</p>
+          </div>
+          <div className={styles.row}>
+            <span>Currency:</span>
+            <p>{details[0].currency}</p>
+          </div>
+          <div className={styles.row}>
+            <span>CEO:</span>
+            <p>{details[0].ceo}</p>
+          </div>
+          <div className={styles.row}>
+            <span>Industry:</span>
+            <p>{details[0].industry}</p>
+          </div>
+          <div className={styles.row}>
+            <span>Website:</span>
+            <p>{details[0].website}</p>
+          </div>
+        </section>
+      )}
+    </article>
+  );
+};
 
 export default Profile;
