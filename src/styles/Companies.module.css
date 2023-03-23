@@ -5,29 +5,31 @@
   width: 100%;
 }
 
-li {
+.link {
   width: 50%;
   height: 150px;
   cursor: pointer;
   text-align: end;
+  text-decoration: none;
+  color: #fff;
 }
 
 .bottom {
   padding: 1rem;
-  transform: translateY(75px);
+  transform: translateY(50px);
 }
 
-li:nth-child(4n),
-li:nth-child(4n + 1) {
+.link:nth-child(4n),
+.link:nth-child(4n + 1) {
   background-color: #0058a8;
 }
 
-li:nth-child(4n + 2),
-li:nth-child(4n + 3) {
+.link:nth-child(4n + 2),
+.link:nth-child(4n + 3) {
   background: #0d47a1;
 }
 
-li:hover {
+.link:hover {
   filter: contrast(1.125);
 }
 

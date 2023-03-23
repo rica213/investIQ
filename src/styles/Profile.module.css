@@ -12,8 +12,14 @@
   line-height: 1.5;
 }
 
-.title {
-  padding: 1rem;
+.logo {
+  width: 100px;
+}
+
+.name,
+.symbol {
+  font-size: 0.75rem;
+  text-align: end;
 }
 
 .row {

@@ -9,3 +9,8 @@ header {
   display: flex;
   gap: 1rem;
 }
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
