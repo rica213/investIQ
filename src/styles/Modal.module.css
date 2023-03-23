@@ -1,6 +1,5 @@
 .overlay {
   position: fixed;
-  display: none;
   width: 100%;
   height: 100%;
   top: 0;
@@ -32,10 +31,18 @@
   color: white;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 55%;
   cursor: pointer;
+}
+
+fieldset {
+  padding: 1rem;
 }
 
 legend {
   font-size: 1.25rem;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
 }
