@@ -7,6 +7,7 @@ import Summary from '../components/Summary';
 import styles from '../styles/Homepage.module.css';
 import Modal from '../components/Modal';
 import { getAllCompanies } from '../redux/companies/companiesSlice';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
 const Homepage = () => {
   const { isOpen } = useSelector((store) => store.modal);
@@ -33,6 +34,7 @@ const Homepage = () => {
       <Summary title="Publicly Traded Companies based in US" />
       <Companies />
       {isOpen && <Modal />}
+      <ScrollToTopButton />
     </>
   );
 };

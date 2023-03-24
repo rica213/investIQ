@@ -1,0 +1,23 @@
+.scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: #002e6d;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.scroll-to-top.show {
+  display: flex;
+}
+
+.scroll-to-top i {
+  font-size: 20px;
+}
