@@ -68,7 +68,7 @@ This is a mobile web application that render on its homepage the list of US comp
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+  [Live Demo Link](https://dev--lively-cobbler-cbe7de.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
