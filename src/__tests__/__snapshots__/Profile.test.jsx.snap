@@ -1,0 +1,92 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Profile component > should match snapshot 1`] = `
+<div>
+  <article
+    class="_profile_331855"
+  >
+    <section
+      class="_headline_331855"
+    >
+      <img
+        alt="Apple Inc."
+        class="_logo_331855"
+        src="https://example.com/apple.png"
+      />
+      <div>
+        <h2
+          class="_name_331855"
+        >
+          Apple Inc.
+        </h2>
+        <h3
+          class="_symbol_331855"
+        >
+          AAPL
+        </h3>
+      </div>
+    </section>
+    <article
+      class="_summary_78e985"
+    >
+      <p>
+        Profile details
+      </p>
+    </article>
+    <section
+      class="_details_331855"
+    >
+      <div
+        class="_row_331855"
+      >
+        <span>
+          Price:
+        </span>
+        <p>
+          124.97
+        </p>
+      </div>
+      <div
+        class="_row_331855"
+      >
+        <span>
+          Currency:
+        </span>
+        <p>
+          USD
+        </p>
+      </div>
+      <div
+        class="_row_331855"
+      >
+        <span>
+          CEO:
+        </span>
+        <p>
+          Tim Cook
+        </p>
+      </div>
+      <div
+        class="_row_331855"
+      >
+        <span>
+          Industry:
+        </span>
+        <p>
+          Technology
+        </p>
+      </div>
+      <div
+        class="_row_331855"
+      >
+        <span>
+          Website:
+        </span>
+        <p>
+          https://www.apple.com/
+        </p>
+      </div>
+    </section>
+  </article>
+</div>
+`;
