@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Homepage component > should match the snapshot 1`] = `
+[
+  <div
+    className="_headline_524292"
+    style={
+      {
+        "backgroundImage": "url(/src/assets/images/bg-headline.jpg)",
+      }
+    }
+  >
+    <a
+      className="_attribution_524292"
+      href="https://www.freepik.com/free-vector/investment-data-concept-illustration_12704375.htm#query=finance%20illustration&position=4&from_view=search&track=ais"
+    >
+      Image by storyset
+    </a>
+     
+    on Freepik
+  </div>,
+  <form
+    className="_searchForm_ef0f0f"
+    onChange={[Function]}
+  >
+    <input
+      className="_searchBy_ef0f0f"
+      onChange={[Function]}
+      placeholder="Search by Symbol | eg. AAPL"
+      type="text"
+    />
+    <button
+      className="_searchBtn_ef0f0f"
+      onClick={[Function]}
+      type="button"
+    >
+      Search
+    </button>
+  </form>,
+  <article
+    className="_summary_78e985"
+  >
+    <p>
+      Publicly Traded Companies based in US
+    </p>
+  </article>,
+  <ul
+    className="_companiesList_67bdf6"
+  >
+    <a
+      className="_link_67bdf6"
+      href="/profile"
+      onClick={[Function]}
+    >
+      <li
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        <div
+          className="_bottom_67bdf6"
+        >
+          <h4
+            className="_name_67bdf6"
+          >
+            AAPL
+          </h4>
+          <h5
+            className="_symbol_67bdf6"
+          />
+          <h5
+            className="_symbol_67bdf6"
+          />
+        </div>
+      </li>
+    </a>
+    <a
+      className="_link_67bdf6"
+      href="/profile"
+      onClick={[Function]}
+    >
+      <li
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        <div
+          className="_bottom_67bdf6"
+        >
+          <h4
+            className="_name_67bdf6"
+          >
+            MSFT
+          </h4>
+          <h5
+            className="_symbol_67bdf6"
+          />
+          <h5
+            className="_symbol_67bdf6"
+          />
+        </div>
+      </li>
+    </a>
+  </ul>,
+  <button
+    className="_scrollToTop_fd4189"
+    onClick={[Function]}
+    style={
+      {
+        "display": "none",
+      }
+    }
+  >
+    Top
+  </button>,
+]
+`;
