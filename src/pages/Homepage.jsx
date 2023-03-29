@@ -8,13 +8,21 @@ import styles from '../styles/Homepage.module.css';
 import Modal from '../components/Modal';
 import { getAllCompanies } from '../redux/companies/companiesSlice';
 import ScrollToTopButton from '../components/ScrollToTopButton';
+import Spinner from "react-loading-indicators";
+
 
 const Homepage = () => {
   const { isOpen } = useSelector((store) => store.modal);
+  const { isLoading } = useSelector((store) => store.companies);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getAllCompanies());
   }, [dispatch]);
+
+   if (isLoading) {
+     return <Spinner style={{ fontSize: "2rem" }} color="white" />;
+   }
+
   return (
     <>
       <div
