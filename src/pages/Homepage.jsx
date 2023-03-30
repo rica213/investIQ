@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import Spinner from 'react-loading-indicators';
 import bgHeadline from '../assets/images/bg-headline.jpg';
 import Companies from '../components/Companies';
 import Search from '../components/Search';
@@ -8,8 +9,6 @@ import styles from '../styles/Homepage.module.css';
 import Modal from '../components/Modal';
 import { getAllCompanies } from '../redux/companies/companiesSlice';
 import ScrollToTopButton from '../components/ScrollToTopButton';
-import Spinner from "react-loading-indicators";
-
 
 const Homepage = () => {
   const { isOpen } = useSelector((store) => store.modal);
@@ -19,9 +18,9 @@ const Homepage = () => {
     dispatch(getAllCompanies());
   }, [dispatch]);
 
-   if (isLoading) {
-     return <Spinner style={{ fontSize: "2rem" }} color="white" />;
-   }
+  if (isLoading) {
+    return <Spinner style={{ fontSize: '2rem' }} color="white" />;
+  }
 
   return (
     <>
