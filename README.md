@@ -13,13 +13,13 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
+- [🪶 Key Features](#key-features)
+- [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -36,6 +36,8 @@
 
 This is a mobile web application that render on its homepage the list of US companies with market capitalizations greater than $10 billion. And you can search any company by its name or symbol. The configuration is offered in the modal feature. Each company can be clicked and we can see its profile, for example its price, ceo, industry, etc. This project is built by using React and Redux Toolkit and Vite. And we perform all tests by using React testing library and Jest.
 
+[Screencast Demo InvestIQ.webm](https://github.com/rica213/investIQ/assets/10439283/8bb6ea68-20ee-490d-9f77-981b251f9804)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -50,7 +52,7 @@ This is a mobile web application that render on its homepage the list of US comp
 </details>
 
 <!-- Features -->
-### Key Features <a name="key-features"></a>
+## 🪶 Key Features <a name="key-features"></a>
 
 - **[Retrieve from API and display in the Homepage the list of all companies]**
 - **[Search company by company name or symbol]**
@@ -68,8 +70,8 @@ This is a mobile web application that render on its homepage the list of US comp
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-  [Live Demo Link](https://dev--lively-cobbler-cbe7de.netlify.app/)
-  [Video walkthrough](https://www.loom.com/share/5b1802f98a6e43828196a2903b18f0d1)
+  Here is the [Live Demo Link](https://dev--lively-cobbler-cbe7de.netlify.app/) <br>
+  Here is the [Video walkthrough](https://www.loom.com/share/5b1802f98a6e43828196a2903b18f0d1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,9 +92,10 @@ In order to run this project you need:
 
 Download this repository to your desired folder and deplace into the extracted project:
 
-``sh
+```sh
   cd my-folder/investIQ
 ```
+
 ### Install
 
 Install this project with:
@@ -123,13 +126,14 @@ To run tests, run the following command:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Clarielle Larissa**
 
 - GitHub: [@rica213](https://github.com/rica213)
 - Twitter: [@alc3and](https://twitter.com/alc3and)
 - LinkedIn: [Larissa Clarielle](https://linkedin.com/in/larissa-clarielle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -151,7 +155,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, a **STAR** would really be appreciated.
+If you like this project, a 🌟 **STAR** 🌟 would really be appreciated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
