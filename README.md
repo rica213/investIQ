@@ -124,8 +124,6 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Clarielle Larissa**
 
 - GitHub: [@rica213](https://github.com/rica213)
