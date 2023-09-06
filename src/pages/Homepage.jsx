@@ -19,7 +19,17 @@ const Homepage = () => {
   }, [dispatch]);
 
   if (isLoading) {
-    return <Spinner style={{ fontSize: '2rem' }} color="white" />;
+    return (
+      <Spinner
+        style={{
+          fontSize: '0.5rem',
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+        }}
+        color="white"
+      />
+    );
   }
 
   return (
