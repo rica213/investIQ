@@ -24,7 +24,7 @@ const Homepage = () => {
         style={{
           fontSize: '0.5rem',
           position: 'absolute',
-          top: '50%',
+          top: '25%',
           left: '50%',
         }}
         color="white"

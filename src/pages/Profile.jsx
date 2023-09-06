@@ -1,10 +1,26 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import Spinner from 'react-loading-indicators';
 import styles from '../styles/Profile.module.css';
 import Summary from '../components/Summary';
 
 const Profile = () => {
   const { details, isLoading } = useSelector((store) => store.profile);
+
+  if (isLoading) {
+    return (
+      <Spinner
+        style={{
+          fontSize: '0.5rem',
+          position: 'absolute',
+          top: '25%',
+          left: '50%',
+        }}
+        color="white"
+      />
+    );
+  }
+
   return (
     <article className={styles.profile}>
       {!isLoading && (
